@@ -96,16 +96,6 @@ main {
   border-bottom-right-radius: 10px;
 }
 
-.foto5 {
-  margin-left: 400px;
-  
-}
-
-.foto4{
-  margin-left: 400px;
-  
-
-}
 
 picture {
   display: flex;
@@ -140,9 +130,10 @@ article > h1 {
 article > h2 {
 
   background-color: antiquewhite;
-  width: 400px;
   text-align: center;
   margin: auto;
+  max-width: 400px;
+  min-width: 280px;
 }
 
 
